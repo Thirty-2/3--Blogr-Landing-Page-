@@ -17,6 +17,7 @@ li a { text-decoration: none; color: white; }
 .White-border { border:  solid thin rgba(255, 255, 255, 0.701); border-radius: 90px; padding: 10px 35px; }
 .Flex-1 { padding: 0 140px; width: 49%; margin-right: 500px; }
 img  { width: 40%; }
+.Mac-2, .Flex-1-img-2 { display: none; }
 
 
 
@@ -68,18 +69,18 @@ img  { width: 40%; }
 /* Flex container */
 /* flex container 1 */
 #Flex-container-1 {  }
-.Flex-1-img { position: absolute; right: -159px; top: 600px; width: 40%; }
+.Flex-1-img { position: absolute; right: -180px; top: 560px; width: 40%; }
 #Flex-container-1 .Flex-1 { margin-bottom: 300px; }
 
 /* flex container 2 */
-#Flex-container-2 { background-color: hsl(237, 23%, 32%); padding: 100px; width: 100%; margin-bottom: 200px; border-top-right-radius: 60px; border-bottom-left-radius: 60px; }
+#Flex-container-2 { background-color: hsl(237, 23%, 32%); padding: 120px; width: 100%; margin-bottom: 200px; border-top-right-radius: 60px; border-bottom-left-radius: 60px; }
 
-.Phone { position: absolute; bottom: 986px; left: 100px; z-index: 1; width: 30%; }
-#Flex-container-2 .Flex-1 { margin-left: 350px; width: 53%; color: white; }
+.Phone { position: absolute; bottom: 970px; left: 100px; z-index: 1; width: 30%; }
+#Flex-container-2 .Flex-1 { margin-left: 340px; width: 53%; color: white; }
 
 /* flex container 3 */
 #Flex-container-3 { width: 100%; padding-bottom: 300px; }
-.Mac { position: absolute; width: 45%; bottom: 420px; left: -195px; }
+.Mac { position: absolute; width: 45%; bottom: 350px; left: -215px; }
 #Flex-container-3 .Flex-1 { width: 46%; margin-left: 453px; margin-top: 70px; }
 
 /* footer */
@@ -92,7 +93,7 @@ footer nav li { padding-bottom: 10px; }
 
 
 
-@media screen and (min-width:300px)  {
+@media screen and (min-width:300px) and ( max-width:800px )  {
     body {  }
 
     /* Navigation 1*/
@@ -116,8 +117,8 @@ footer nav li { padding-bottom: 10px; }
     /* flex container 1 */
     #Flex-container-1 {  }
     .Flex-1-img { display: none; }
-    .Flex-1-img-2 { position: absolute; bottom: 78%;  width: 100%; }
-    #Flex-container-1 .Flex-1 { width: 60%; margin: 400px 140px 2000px auto; padding: 0; text-align: center; }
+    .Flex-1-img-2 { display: block; position: absolute; bottom: 75%;  width: 100%; }
+    #Flex-container-1 .Flex-1 { width: 60%; margin: 400px 150px 2000px auto; padding: 0; text-align: center; }
 
 
     /* flex container 2 */
@@ -128,7 +129,7 @@ footer nav li { padding-bottom: 10px; }
     /* flex container 3 */
     #Flex-container-3 { width: 100%; padding-bottom: 300px; }
     .Mac { display: none; }
-    .Mac-2 { position: absolute; bottom: 38%; left: -50px;  width: 125%; }
+    .Mac-2 { display: block; position: absolute; bottom: 38%; left: -50px;  width: 125%; }
     #Flex-container-3 .Flex-1 { width: 70%; margin: -700px auto auto auto; padding: 0; text-align: center; }
 
     /* footer */

@@ -1,3 +1,10 @@
+/* footer */
+    footer { display: flex; flex-flow: column; height: 650px;}
+    footer h1 { position: absolute; top: 20px; left: 38%; }
+    #Foot { left: 40%; top: 100px; display: flex; flex-flow: column; justify-content: center; }
+
+
+
 /* Responsivness */
 /* 500 */
 @media screen and (max-width:500px) {
