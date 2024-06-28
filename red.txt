@@ -1,0 +1,111 @@
+/* Responsivness */
+/* 500 */
+@media screen and (max-width:500px) {
+body {  }
+/* Utilities */
+h3 { margin-left: -1120px; }
+
+img {  }
+/* Navigation */
+#Nav-container { padding: 10px 20px;  }
+#Navigation-1 { padding: 50px 20px; }
+.Nav-2 {  }
+#Navigation-2 { width: 40%; }
+#Navigation-2 h2 { font-size: 35px; width: 67%; margin: 0 -35px;}
+#Navigation-2 h4 { width: 300px; margin-left: -25px; }
+#Navigation-2 .Nav-3 { width: 350px; margin-left: -57px; }
+
+/* Flex-container 1 */
+#Flex-container-1 .Flex-1 { width: 35%; text-align: center; margin: 30px -55px; }
+#Flex-container-1 img {z-index: 2; width: 35%; margin: -80px 0 0 0; }
+
+/* Flex container 2 */
+.Phone {z-index: 1; width: 100%; margin: -1100px 0 170px 0; }
+#Flex-container-2 .Flex-1 { padding: 5px; margin: 150px 0 0 -20px; width: 270px; text-align: center; }
+#Flex-container-2 .Flex-1 h5 { font-size: 35px;  }
+
+/* Flex container 3 */
+.Mac { width: 130%; margin-left: -95px;  }
+#Flex-container-3 .Flex-1 { width: 37%; text-align: center; margin: 30px -70px; }
+
+/* footer */
+footer { display: block; overflow: hidden; margin: -1480px  1100px 0 -90px; }
+footer h1 { margin-left: 170px; padding: 70px 0;  }
+#Foot {display: block; margin-right: -100px; }
+}
+
+
+
+/* 400 */
+@media screen  and (max-width:400px) {
+body {  }
+/* Utilities */
+h3 { margin-left: -1195px; }
+
+img {  }
+/* Navigation */
+#Nav-container { padding: 10px 5px;  }
+#Navigation-1 { padding: 50px 0px; }
+.Nav-2 {  }
+#Navigation-2 { width: 40%; }
+#Navigation-2 h2 { font-size: 35px; width: 67%; margin: 0 -55px;}
+#Navigation-2 h4 { width: 300px; margin-left: -45px; }
+#Navigation-1 .Nav-1 li { margin-left: 26px; }
+#Navigation-2 .Nav-3 { width: 350px; margin-left: -77px; }
+
+/* Flex-container 1 */
+#Flex-container-1 .Flex-1 { width: 35%; text-align: center; margin: 30px -95px; }
+#Flex-container-1 img {z-index: 2; width: 25%; margin: 0 0 0 25px; }
+
+/* Flex container 2 */
+.Phone {z-index: 1; width: 100%; margin: -1100px 0 170px 0; }
+#Flex-container-2 .Flex-1 { padding: 5px; margin: 150px 0 0 -55px; width: 270px; text-align: center; }
+#Flex-container-2 .Flex-1 h5 { font-size: 35px;  }
+
+/* Flex container 3 */
+.Mac { width: 130%; margin-left: -80px;  }
+#Flex-container-3 .Flex-1 { width: 37%; text-align: center; margin: 30px -115px; }
+
+/* footer */
+footer { display: block; overflow: hidden; margin: -1480px  1200px 0 -140px; }
+footer h1 { margin-left: 170px; padding: 70px 0;  }
+#Foot {display: block; margin-right: -130px; }
+}
+
+
+
+/* 350 */
+@media screen  and (max-width:340px) {
+    body {  }
+    /* Utilities */
+    h3 { margin-left: -1230px; }
+    
+    img {  }
+    /* Navigation */
+    #Nav-container { padding: 10px 5px;  }
+    #Navigation-1 { padding: 50px -10px; }
+    .Nav-2 {  }
+    #Navigation-2 { width: 40%; }
+    #Navigation-2 h2 { font-size: 35px; width: 67%; margin: 0 -75px;}
+    #Navigation-2 h4 { width: 300px; margin-left: -65px; }
+    #Navigation-1 .Nav-1 li { margin-left: 15px; }
+    #Navigation-2 .Nav-3 { width: 350px; margin-left: -96px; }
+    
+    /* Flex-container 1 */
+    #Flex-container-1 .Flex-1 { width: 35%; text-align: center; margin: 30px -110px; }
+    #Flex-container-1 img {z-index: 2; width: 25%; margin: 0 0 0 5px; }
+    
+    /* Flex container 2 */
+    .Phone {z-index: 1; width: 100%; margin: -1100px 0 170px 0; }
+    #Flex-container-2 .Flex-1 { padding: 5px; margin: 150px 0 0 -75px; width: 270px; text-align: center; }
+    #Flex-container-2 .Flex-1 h5 { font-size: 35px;  }
+    
+    /* Flex container 3 */
+    .Mac { width: 130%; margin-left: -70px;  }
+    #Flex-container-3 .Flex-1 { width: 37%; text-align: center; margin: 30px -130px; }
+    
+    /* footer */
+    footer { display: block; overflow: hidden; margin: -1480px  1230px 0 -160px; }
+    footer h1 { margin-left: 170px; padding: 90px 0;  }
+    #Foot {display: block; margin-right: -150px; }
+    }
